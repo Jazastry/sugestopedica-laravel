@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Suggestopedica</title>        
+        <title>Suggestopedica</title>            
         <link rel="stylesheet" type="text/css" src="./lib/jquery-ui/jquery-ui.min.css"></link>
         <link rel="stylesheet" type="text/css" href="./lib/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -35,11 +35,16 @@
                 <li><a href="#logo_cont">Начало</a></li>
                 <li><a href="#courses_cont">Програма</a></li>
                 <li><a href="#team_cont">Екип</a></li>
-                <li><a href="#">Сугестопедия</a></li>
-                <li><a href="#">Записване</a></li>
-                <li><a href="#">Блог</a></li>
-                <li><a href="#">Контакти</a></li>
+                <li><a href="#suggestopedy">Сугестопедия</a></li>
+                <li><a href="#signin">Записване</a></li>
+                <li><a href="#contacts">Контакти</a></li>
+                <li><a href="/site/" target="_blank">Блог</a></li>                
               </ul>
+              <ul class="nav navbar-nav navbar-right hidden-md hidden-sm">
+                  <li><a class="social_link facebook" href="https://www.facebook.com/suggestopedica/" target="_blank"><span class="fa fa-facebook-square"></span></a></li>
+                  <li><a class="social_link youtube" href="https://www.youtube.com/channel/UCMChaYJyaJCI_8npCUEmdFQ" target="_blank"><span class="fa fa-youtube-square"></span></a></li>
+                  <li><a class="social_link instagram" href="https://www.instagram.com/suggestopedica/" target="_blank"><span class="fa fa-instagram"></span></a></li>
+              </ul>            
             </div>
           </div>
         </nav>

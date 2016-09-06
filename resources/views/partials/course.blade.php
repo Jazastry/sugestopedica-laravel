@@ -1,9 +1,9 @@
-<section class="course_cont">
+<section class="course_cont text_shadow">
 	<div class="course_roud_frame" color-index="{{$i}}">
 		<div class="lable_container">
 			<h1>{{ $course->name or '' }}</h1>			
 		</div>		
-		<p class="color_line" color-index="{{$i}}"></p>
+		<p class="color_line box_shadow" color-index="{{$i}}"></p>
 		<div class="type_container">
 			<h2 class="info_line">{{$course->course_type_name or ''}}</h2>
 		</div>

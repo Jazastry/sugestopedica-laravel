@@ -16,6 +16,9 @@ class HomeController extends Controller {
             ->nest('logo_template', 'sections\logo')
             ->nest('courses_template', 'sections\courses', ['courses'=>$courses])
             ->nest('team_template', 'sections\team', ['t_members'=>$team_members])
+            ->nest('suggestopedy_template', 'sections\suggestopedy')
+            ->nest('signin_template', 'sections\signin')
+            ->nest('contacts_template', 'sections\contacts')
             ->nest('footer_template', 'partials\footer');
     }    
 }

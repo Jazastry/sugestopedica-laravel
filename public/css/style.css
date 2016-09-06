@@ -1,7 +1,13 @@
+@import url("../lib/font-awesome/css/font-awesome.min.css");
 @import url("./font-load.css");
 @import url("./navbar.css");
 @import url("./logo.css");
 @import url("./courses.css");
+@import url("./team.css");
+@import url("./suggestopedy.css");
+@import url("./signin.css");
+@import url("./contacts.css");
+@import url("./footer.css");
 
 @media (min-width: 768px) {
     .navbar .navbar-nav {
@@ -13,4 +19,81 @@
     .navbar .navbar-collapse {
         text-align: center;
     }
+}
+
+body {
+    letter-spacing: 0.4px;
+}
+
+body, header, footer {
+    max-width: 1900px;
+}
+.main_label {
+    font-size: 3em;
+}
+.text_shadow {
+	text-shadow: 2px 5px 7px rgba(150, 150, 150, 0.5);
+}
+.box_shadow {
+	-webkit-box-shadow: 2px 5px 7px 0px rgba(150, 150, 150, 0.5);
+	-moz-box-shadow:    2px 5px 7px 0px rgba(150, 150, 150, 0.5);
+	box-shadow:         2px 5px 7px 0px rgba(150, 150, 150, 0.5);
+}
+.padding_top_bottom_m {
+	padding: 40px 0px 40px 0px;
+}
+.padding_top_m {
+    padding-top: 40px;
+}
+.padding_bottom_l {
+    padding-bottom: 80px;
+}
+.my_container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.color_line[color-index="0"] {
+    border-top: 2px solid #FFC283;
+}
+
+.color_line[color-index="1"] {
+    border-top: 2px solid #F99385;
+}
+
+.color_line[color-index="2"] {
+    border-top: 2px solid #99F982;
+
+}
+
+.color_line[color-index="3"] {
+    border-top: 2px solid #91E9FD;
+}
+
+.color_line[color-index="4"] {
+    border-top: 2px solid #E4A1FB;
+}
+
+.color_line[color-index="5"] {
+    border-top: 2px solid #FEA341;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;  
+  -khtml-user-select: none;   
+  -moz-user-select: none;     
+  -ms-user-select: none;      
+  user-select: none;          
+                              
+}
+
+.social_link {
+  text-decoration: none;
+}
+
+.inline-block {
+  display: inline-block;
 }
