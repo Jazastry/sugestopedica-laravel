@@ -1,0 +1,41 @@
+section.logo_cont {
+    position: relative;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+section.logo_cont .text_container_upper {
+    padding-top: 40px;
+}
+
+section.logo_cont .text_container_upper h2 {
+    font-size: 3em;
+}
+
+section.logo_cont .text_container_upper h1 {
+    font-size: 4em;
+}
+
+section.logo_cont .img_container {
+    height: 400px;
+    background-image: url('../img/backgrounds-l/logo_brain_no_back_no_padding_shad.png');
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+section.logo_cont .text_container_lower h3 {
+    font-size: 2em;
+    padding-bottom: 30px;
+}
+/*
+section.logo_cont .text_container_description {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 30px;
+}*/
+section.logo_cont .text_container_description .padding_top {
+    padding-top: 30px;
+}

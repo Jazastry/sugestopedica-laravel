@@ -1,0 +1,15 @@
+.navbar-header .navbar-brand {
+    padding: 0px;
+    position: relative;
+}
+
+.navbar a.navbar-brand img {
+    position: absolute;
+    top: 8px;
+    height: 69%;
+    left: 10px;
+}
+
+.navbar .navbar-nav {
+	font-size: 1.2em;
+}
